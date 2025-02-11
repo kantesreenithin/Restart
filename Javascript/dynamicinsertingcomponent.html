@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inserting New Components Dynamically</title>
+    <script type="text/javascript">
+      // function addNode() {
+      //     var newP = document.createElement("p");
+      //     var textNode = document.createTextNode("This is another node");
+      //     newP.appendChild(textNode);
+      //     document.getElementById("parent1").appendChild(newP);
+      // }
+      // window.onload=function(){
+      //     addNode();
+      // }
+
+      let hero = {
+        powerLevel: 99,
+        getPower() {
+          return this.powerLevel;
+        },
+      };
+
+      let getPower = hero.getPower;
+
+      let hero2 = { powerLevel: 42 };
+      console.log(getPower);
+    //   console.log(getPower.apply(hero2));
+
+    </script>
+  </head>
+  <body>
+    <div id="parent1">
+      <p>First paragraph</p>
+    </div>
+  </body>
+</html>
