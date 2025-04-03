@@ -1,0 +1,70 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Future of JavaScript",
+      "body": "JavaScript continues to evolve with new features like ESNext, improving performance and developer experience.",
+      "author": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "Understanding React Hooks",
+      "body": "React hooks simplify state management and side effects, making functional components more powerful.",
+      "author": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "title": "Why Node.js is Great for Backend Development",
+      "body": "Node.js provides a non-blocking event-driven architecture, making it perfect for scalable web applications.",
+      "author": "Mike Johnson"
+    },
+    {
+      "id": "4",
+      "title": "MySQL vs MongoDB: Which One Should You Choose?",
+      "body": "MySQL is relational, while MongoDB is NoSQL. The choice depends on your application requirements.",
+      "author": "Emily Davis"
+    },
+    {
+      "id": "5",
+      "title": "Vite: The Next Generation Frontend Tooling",
+      "body": "Vite offers fast development with hot module replacement, making it a great alternative to Webpack.",
+      "author": "Chris Wilson"
+    },
+    {
+      "id": "f8e2",
+      "title": "Sample Blog addition check",
+      "body": "sdmv;dasalmdflsmfewfojifsjs fefwekfiefekngklmsdklvdsjefpewoiewofkdvmdlkvMSAFEOIEWROWEWEOFKSLCMSLMS FKOFK EO KELsdogepoeitekdslkdgdj kldkga'eotieoma';ldgaljsglk'asg",
+      "author": "Sreenithin"
+    },
+    {
+      "id": "73ee",
+      "title": "sample blog 2",
+      "body": "fmsflwefoeweowtweokdsmskdvk fskf;osFK FSLFSDGSDG0Pf Glkgadsopgkd gkd'godkgod gpodkok;lkdjffa gjdkfds sdkfjewoijf sdlkd;geojsivmds;lvsfiwjefaifldkgdlkafs",
+      "author": "sree"
+    },
+    {
+      "id": "d389",
+      "title": "sample blog 3",
+      "body": "qwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflke",
+      "author": "Sreenithin"
+    },
+    {
+      "id": "ccb4",
+      "title": "sample blog 4",
+      "body": "qwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflke",
+      "author": "Sreenithin"
+    },
+    {
+      "id": "43ac",
+      "title": "sample blog 5",
+      "body": "qwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflkeqwrjiojopkweopwkwopkwpokwpokwpokewfosflke",
+      "author": "Sreenithin"
+    },
+    {
+      "id": "9273",
+      "title": "sample blog 6",
+      "body": "kfmsdklfmsdv feofew ieweof msdlkvmdsvd kksdkfas;kdv iasjgoisgj sdpogkd okgpodsgieog svkdsp sgpdsgpsodg asdvkd;lvmd okdsopgkvdokvsd ksdvosdgosps vdogpogeog skvd dssdokpodgk dsokm vsovkdsopvkdss vpokpdkdsokaspg sdgkdspogksdpogksa aksdogkdspokd",
+      "author": "Sreenithin"
+    }
+  ]
+}

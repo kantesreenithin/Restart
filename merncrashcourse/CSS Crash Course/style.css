@@ -1,0 +1,129 @@
+/* * {
+  color: blueviolet;
+} */
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+#idselecter {
+  color: aqua;
+}
+/* .testcolor {
+  /* color: #000000;
+  color: #ffffff;
+  color: rgb(0, 0, 0, 0.75); 
+} */
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+
+/* font style text style */
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+/* styling lists */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* boxmodel */
+.boxmodel {
+  border: 1px solid red;
+  height: 50px;
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+}
+h2 {
+  color: blue;
+}
+.sub-heading {
+  color: blue;
+}
+h3 {
+  color: red !important; /*add more specific */
+}
+#title {
+  color: orange;
+}
+.inheritance {
+  color: orange;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td {
+  text-align: center;
+  /* height: 50px;
+  vertical-align: bottom; */
+}
+.content1 {
+  border: 1px solid red;
+  display: inline;
+}
+.content2 {
+  border: 1px solid blue;
+  display: none ;
+}
+.position1{
+    border: 1px solid red;
+    /* position: relative; */
+    position: sticky;
+    top:50px;
+    left: 50px;
+    /* bottom: 50px;
+    right: 50px; */
+}
+.position2{
+    border: 1px solid blue;
+    /* position: static; */
+    /* position: fixed; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.em-container{
+    font-size: 20px;
+    height: 2em;
+}
+.em{
+    font-size: 1.5em;
+}
+.rem-container{
+    font-size: 3rem;
+    height: 50vh;
+    border:1px solid #333;
+    /* width: 50vw; */
+    /* height: calc(50vh-100px); */
+    /* height: min(50vh,600px); */
+}

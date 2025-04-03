@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  /* display:inline-flex; */
+  display: flex;
+
+  /* sets direction */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* wrap */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* flex-direction: column; */
+  /* height: 400px; */
+  /* flex-wrap:wrap-reverse; */
+
+  /* both dir and wrap */
+  /* flex-flow: row nowrap; */
+  /* flex-flow: row-reverse wrap; */
+  /* flex-flow: row-reverse wrap; */
+
+  /* spacing */
+  /* column-gap: 20px;
+  row-gap: 20px; */
+
+  /* shorthand for spacing row col */
+  /* gap:40px 20px; */
+
+  /* align content along main axes */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* for col */
+  /* flex-direction: column;
+  height: 400px; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+
+  /* for align in cross axes */
+  /* height: 800px; */
+
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+
+  /* flex-direction: column;
+  height: 400px; */
+  /* align-items: baseline; */
+
+  /* align content along cross axes */
+  /* height: 800px;
+  flex-wrap: wrap; */
+  /* align-content:stretch ; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+
+  /* order - of items  */
+
+  /* grow */
+  /* shrink */
+  /* basis initial val of item*/
+
+  /* shorthand for these 3 */
+  /* flex : grow shrink basis */
+
+  /* align self for aligning individual items */
+
+  height: 400px;
+  /* align-items: stretch; */
+  align-items: flex-end;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  /* flex-grow:1; */
+  /* flex-shrink: 0; */
+  /* width: 6rem; */
+
+  /* flex:2; */
+  /* flex:10em; */
+  /* flex:30px; */
+
+  /* flex:1 30px; */
+  /* flex:2 2; */
+  /* flex:2 2 10%; */
+}
+.item-1 {
+  background-color: #b4bf35;
+  /* padding-bottom: 30px; */
+  /* padding-right: 35px; */
+
+  /* flex-basis: auto; */
+  /* flex-basis: 100px;
+  flex-grow: 1; */
+
+  align-self: flex-start;
+}
+.item-2 {
+  background-color: #b95f21;
+  /* padding-bottom: 45px; */
+  /* padding-right: 45px; */
+  align-self: flex-end;
+}
+.item-3 {
+  background-color: #1c4c56;
+  /* order: 1; */
+  /* flex-shrink: 4; */
+  align-self: center;
+}
+.item-4 {
+  background-color: #cfb276;
+  align-self: stretch;
+}
+.item-5 {
+  background-color: #6b0803;
+  /* flex-grow: 1; */
+  align-self: auto;
+}
+.item-6 {
+  background-color: #1c4c56;
+  /* flex-grow: 3; */
+}
+.item-7 {
+  background-color: #b95f21;
+  /* order: 2; */
+  /* flex-grow: 1; */
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+  /* order: 1; */
+}
+
+/* 
+align-content:	Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines
+align-items:	Vertically aligns the flex items when the items do not use all available space on the cross-axis
+display:	Specifies the display behavior (the type of rendering box) for an element
+flex-direction:	Specifies the direction of the flex items inside a flex container
+flex-flow:	A shorthand property for flex-direction and flex-wrap
+flex-wrap:	Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+justify-content:	Horizontally aligns the flex items when the items do not use all available space on the main- */
+
+/* 
+align-self: Specifies the alignment for a flex item (overrides the flex container's align-items property)
+flex: 	A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+flex-basis: 	Specifies the initial length of a flex item
+flex-grow: 	Specifies how much a flex item will grow relative to the rest of the flex items inside the container
+flex-shrink: 	Specifies how much a flex item will shrink relative to the rest of the flex items inside the container
+order: 	Specifies the order of the flex items inside the container */

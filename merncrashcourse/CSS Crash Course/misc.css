@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+.grad {
+  height: 200px;
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom right, purple, white);
+}
+.rgrad {
+  height: 200px;
+  /* background-color: red; */
+  /* background-image: radial-gradient(red,yellow,green); */
+  /* background-image: radial-gradient(circle,red,yellow,green); */
+  background-image: radial-gradient(closest-side, red, yellow, green);
+}
+.cgrad {
+  height: 200px;
+  background-image: conic-gradient(red, yellow, green);
+}
+.shdw {
+  text-shadow: 5px 5px 5px red, 5px 5px 5px yellow;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  /* box-shadow: 10px 10px 5px 12px lightblue ; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trans {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s ease-in-out 1s;
+}
+.trans:hover {
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media only screen and (max-width:600px){
+  body{
+    background-color: lightblue;
+  }
+}
